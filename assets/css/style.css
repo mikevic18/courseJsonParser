@@ -1,0 +1,74 @@
+body {
+    padding-top: 50px;
+}
+
+.navbar-brand i {
+    margin-right: 5px;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.course-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.course-link i {
+    margin-left: 5px;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.list-group-item a:hover {
+    color: #0056b3;
+}
+.container-border {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .button-group .btn {
+    flex-grow: 1;
+    border-radius: 0;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .button-group .btn.active {
+    border-color: transparent;
+    z-index: 1;
+    transform: translateY(-3px);
+  }
+
+  .button-group .btn i {
+    margin-right: 5px;
+  }
